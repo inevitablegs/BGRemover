@@ -39,3 +39,4 @@ def result(request):
         'original': '/' + image_path,
         'processed': '/' + output_path.replace('media/', '')
     })
+
